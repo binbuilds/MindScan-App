@@ -1,25 +1,35 @@
 
   # MindScan - Plataforma para la Regularización del Estado Anímico ☁️✨
 
-MindScan es una aplicación móvil diseñada para la gestión del bienestar emocional y la estabilización del ánimo de los usuarios. A través de una interfaz empática y herramientas de apoyo con inteligencia artificial, el proyecto busca transformar la salud mental digital en una experiencia de acompañamiento activo y gamificado.
+MindScan es una aplicación web con versión de escritorio diseñada para la gestión del bienestar emocional y la estabilización del ánimo de los usuarios. A través de una interfaz empática y herramientas de apoyo con inteligencia artificial, el proyecto busca transformar la salud mental digital en una experiencia de acompañamiento activo y gamificado.
 
-Este proyecto fue desarrollado durante el segundo semestre de la **ESPOL** para la materia de **Computación y Sociedad**.
+Este proyecto fue desarrollado durante el segundo semestre de la ESPOL para la materia de Computación y Sociedad.
 
 🔗 [Ver Prototipo Interactivo en Figma](https://www.figma.com/make/QZ0HWJ4nnZG6oxoyGaxp5n/MindScan-Mobile-Design?fullscreen=1&t=uu6QuRVbGuHpDbxx-1)
+
+🌐 [Ver demo en la web](https://mind-scan-app.vercel.app)
 
 ---
 
 ## ▶️ Correr el proyecto
 
+### En el navegador (modo web)
+
 Instala las dependencias:
+
 ```bash
 npm i
 ```
 
 Inicia el servidor de desarrollo:
+
 ```bash
 npm run dev
 ```
+
+### Como app de escritorio (Electron)
+
+> Próximamente — se está trabajando en el empaquetado para distribución como `.exe`.
 
 ---
 
@@ -47,6 +57,7 @@ npm run dev
 - **Estilos:** Tailwind CSS
 - **Componentes UI:** shadcn/ui (con Radix UI)
 - **Entorno de Desarrollo:** Vite
+- **App de Escritorio:** Electron *(en progreso)*
 - **Diseño:** Figma
 
 ---
